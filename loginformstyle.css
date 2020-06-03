@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(rain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.form-container{
+    border: 0px solid #fff;
+    padding: 50px 60px;
+    margin-top: 20%;
+    background-color: rgba(255, 255, 255, 0.568);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+   
+}
+
+.form-group label{
+  padding-top: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="Password"]{
+    border: none;
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 2px solid rgb(3, 22, 189);
+    border-radius: 0px;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="Password"]:focus{
+  border-bottom: 2px solid black;
+}
+
+.alert {
+  width: 40%;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 30%;
+  margin-bottom: auto; 
+  display: none;
+}
+
+#button{
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    color: #ffffff;
+    background-color: rgb(3, 22, 189);
+    cursor: pointer;
+    margin-top: 15px;
+}
+  
+#button:hover{
+  background-color: rgb(37, 37, 37);
+}
+  
